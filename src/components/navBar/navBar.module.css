@@ -1,0 +1,79 @@
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cadetblue;
+  padding: 10px 80px;
+}
+.header nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.mobileMenu button,
+.header nav button {
+  font-size: 28px;
+  background-color: cadetblue;
+  border: none;
+  line-height: 28px;
+  cursor: pointer;
+  position: relative;
+}
+.header button span {
+  background-color: red;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: white;
+  position: absolute;
+  right: 0;
+  bottom: -10px;
+}
+nav.MobileNav {
+  display: none;
+}
+.bergerMenu p {
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  margin: 5px 0;
+}
+.mobileMenu {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 10px 20px;
+  }
+  .mobileMenu {
+    display: flex;
+    gap: 20px;
+  }
+
+  .bergerMenu {
+    border: 2px solid white;
+    padding: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  nav.MobileNav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 58px;
+    width: 100%;
+    background-color: cadetblue;
+    padding: 20px;
+  }
+  nav.nav {
+    display: none;
+  }
+}

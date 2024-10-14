@@ -1,0 +1,25 @@
+.cartOpen {
+  min-height: 100vh;
+  width: 0;
+  background-color: cadetblue;
+  position: fixed;
+  right: -30px;
+  top: 57px;
+  transition: 0.5s;
+  padding: 10px;
+}
+.cartClose {
+  min-height: 100vh;
+  width: 50%;
+  background-color: cadetblue;
+  position: fixed;
+  right: 0;
+  top: 57px;
+  transition: 0.5s;
+  padding: 10px;
+}
+@media (max-width: 768px) {
+  .cartClose {
+    width: 100%;
+  }
+}

@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+a.active {
+  color: black;
+}
+body {
+  background-color: #222;
+  color: white;
+  font-family: sans-serif;
+}
+.main {
+  width: 80%;
+  margin: auto;
+}

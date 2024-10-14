@@ -1,0 +1,13 @@
+.storeContainer {
+  padding: 60px 0;
+}
+.storeContainer h2 {
+  margin-bottom: 20px;
+  color: cadetblue;
+  font-size: 30px;
+}
+.storeContainer > div {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+}
